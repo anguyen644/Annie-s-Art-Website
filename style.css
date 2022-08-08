@@ -1,0 +1,251 @@
+@font-face
+{
+    font-family: Comfortaa;
+    src:  url(fonts/Comfortaa.ttf);
+}
+
+/* navbar styling */
+    .nav-style 
+    {
+        font-family: Comfortaa;
+        text-decoration: none;
+        padding: 10px;
+        color: black;
+        font-size: 20px
+    }
+/* navbar styling on hover */
+    .nav-style:hover 
+    {
+        color: rgb(135, 206, 235);
+        text-decoration: none;
+    }
+
+/* styles name on left */
+    .navbar-brand 
+    {
+        font-family: Comfortaa;
+        font-weight: bold;
+    }
+
+/* color on current/active tab */
+    #active 
+    {
+        font-family: Comfortaa;
+        text-decoration: none;
+        padding: 10px;
+        color: rgb(135, 206, 235);
+        font-size: 20px
+    }
+
+/* container styling */
+.container 
+{
+    max-width: 50% !important;
+    background-color: white;
+    border-radius: 20px;
+
+}
+.container2 
+{
+    max-width: 50%;
+    background-color: lightpink;
+    border-radius: 20px;
+
+}
+
+*
+{
+    margin:  0;
+    padding:  0;
+    box-sizing: border-box;
+    font-family: Comfortaa;
+}
+
+.gallery-container
+{
+    position:  relative;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.gallery-container .image-container
+{
+    display:  flex;
+    flex-wrap:  wrap;
+    gap:  15px;
+    justify-content: center;
+    padding: 10px;
+}
+.gallery-container .image-container .image
+{
+    height: 250 px;
+    width:  350 px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.gallery-container .image-container .image img
+{
+    height: 250 px;
+    width:  350 px;
+    object-fit: cover;
+    transition: .2s linear;
+}
+.gallery-container .image-container .image:hover img
+{
+    transform:  scale(1.1);
+}
+
+
+.responsive
+{
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* text styling */
+    h2 
+    {
+        text-align: center;
+        padding: 20px;
+        font-family: Comfortaa;
+    }
+
+    #sheet 
+    {
+        text-align: center;
+        padding: 15px;
+        font-family: Comfortaa;
+        font-size: 40px
+    }
+
+    #sheet1
+    {
+        text-align: center;
+        padding:  15px;
+        font-family: Comfortaa;
+        font-size: 25;
+    }
+    #para2
+    {
+        
+        font-family: Comfortaa;
+        font-size: 18px
+    }
+    #para1
+    {
+        text-align: center;
+        font-family: Comfortaa;
+        font-size: 18px
+
+    }
+
+    #para
+    {
+        text-align: center;
+        font-family: Comfortaa;
+        font-size: 20px
+
+    }
+
+.padding-0
+{
+    padding-right: 0px;
+    padding-left:  0px;
+}
+
+.img-fit
+{
+    max-width:100%;
+    max-height:100%;
+    padding: 20px;
+}
+
+.landing 
+{
+    background-image: url("../img/tiny.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+
+/* footer style */
+footer 
+{
+    position: relative;
+    font-family: 'Comfortaa';
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(135, 206, 235);
+    text-align: center;
+    padding: 20px;
+}
+
+#com
+{
+    position: relative;
+    font-family: 'Comfortaa';
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* social media link colors */
+    .fa-linkedin
+    {
+        color: black;
+        padding-right: 10px
+    }
+    .fa-linkedin:hover
+    {
+        color: white;
+        text-shadow: 1px 1px 2px white, 0 0 25px rgb(160, 109, 114), 0 0 5px rgb(110, 68, 72);
+        padding-right: 10px;
+        text-decoration: none;
+    }
+    
+    .fa-instagram
+    {
+        color: black;
+        padding-right: 10px
+    }
+
+    .fa-instagram:hover
+    {
+        color: white;
+        text-shadow: 1px 1px 2px white, 0 0 25px rgb(160, 109, 114), 0 0 5px rgb(110, 68, 72);
+        padding-right: 10px;
+        text-decoration: none;
+    }
+
+    .fa-twitter
+    {
+        color: black;
+        padding-right: 10px
+    }
+    .fa-twitter:hover
+    {
+        color: white;
+        text-shadow: 1px 1px 2px white, 0 0 25px rgb(160, 109, 114), 0 0 5px rgb(110, 68, 72);
+        padding-right: 10px;
+        text-decoration: none;
+    }
+    .fa-envelope 
+    {
+     color: black;
+        padding-right: 10px
+    }
+    .fa-envelope:hover
+    {
+        color: white;
+        text-shadow: 1px 1px 2px white, 0 0 25px rgb(160, 109, 114), 0 0 5px rgb(110, 68, 72);
+        padding-right: 10px;
+        text-decoration: none;
+    }
